@@ -1,0 +1,67 @@
+/*
+COLORS
+#c1872a gold
+#8e44ad Defult purple
+#6c3483 dark purple
+#b977d2 light purple
+*/
+
+h1{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 40px;
+}
+
+body{
+  background-color:#8e44ad ;
+  height: 90%;
+}
+#container{
+  display:flex;
+  justify-content: space-evenly;
+  height: 95%;
+  align-items: center;
+}
+div{
+  background-color: #b977d2;
+  width: 30%;
+  height: 70%;
+  border: solid;
+  border-radius: 2%;
+  border-width: 3px;
+  border-color: #c1872a;
+}
+#displayedChar{
+  border: solid;
+  border-width: 2px;
+  border-radius: 2%;
+  border-color: #c1872a;
+}
+#displayedArea{
+  height: 30%;
+  width: 30%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+button{
+
+}
+#charSelector img{
+  object-fit: cover;
+  width: 100%;
+}
+#charSelector{
+  display: grid;
+  overflow-x: auto;
+  height: 88%;
+  scrollbar-color:#6c3483 ;
+  grid-template-columns: 30% 30% 30%;
+  
+}
+#elements{
+  border:inherit;
+  height: 10%;
+}
